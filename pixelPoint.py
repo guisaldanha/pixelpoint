@@ -57,7 +57,7 @@ def about():
 
     lblVersao = Label(about, text="Versão:")
     lblVersao.grid(row=1, column=0, pady=(5, 0), sticky=E)
-    lblTxtVersao = Label(about, text="v1.0.0",
+    lblTxtVersao = Label(about, text="v1.1.0",
                          fg="blue", cursor="hand2")
     lblTxtVersao.grid(row=1, column=1, pady=(5, 0), sticky=W)
     lblTxtVersao.bind("<Button-1>",
