@@ -2,6 +2,7 @@ import pyautogui as pag
 
 pag.FAILSAFE = False
 
+
 def obtemPosicao():
     pag.displayMousePosition()
     print('Digite a posição para mover o mouse (left, top):')
@@ -18,5 +19,6 @@ def obtemPosicao():
     except ValueError:
         print('Posição inválida!'+ValueError)
     return obtemPosicao()
+
 
 obtemPosicao()
